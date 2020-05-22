@@ -1,0 +1,275 @@
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+@media screen and (max-width: 768px) {
+  .navbar-default .navbar-toggle {
+    border: none; } }
+
+.navbar-header {
+  padding-top: 30px; }
+  @media screen and (max-width: 768px) {
+    .navbar-header {
+      padding-bottom: 15px;
+      padding-top: 15px; } }
+  .navbar-header .navbar-brand {
+    color: #44c0c2;
+    font-size: 43px;
+    font-family: 'Lobster', cursive; }
+    .navbar-header .navbar-brand:hover {
+      color: #60d1d3; }
+
+.navbar-default {
+  background: white;
+  margin: 0; }
+  .navbar-default .navbar-nav li:hover {
+    background-color: #f8f9fb;
+    height: 100%; }
+  .navbar-default .navbar-nav li a {
+    color: #484c55;
+    font-size: 15px;
+    position: relative;
+    transition: 0.8s;
+    padding: 44px 27px; }
+  .navbar-default .navbar-nav li:hover {
+    color: #60d1d3;
+    border-bottom: 3px solid #49cbcd; }
+
+.slide_container {
+  background-image: url("../images/bacg_header.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat; }
+
+.desctiption_slide {
+  text-align: center;
+  padding-top: 138px;
+  padding-bottom: 145px; }
+  @media screen and (max-width: 768px) {
+    .desctiption_slide {
+      padding-top: 25px;
+      padding-bottom: 5px; } }
+  .desctiption_slide h1 {
+    font-size: 65px;
+    color: white;
+    padding-bottom: 45px; }
+    @media screen and (max-width: 768px) {
+      .desctiption_slide h1 {
+        font-size: 40px;
+        padding-bottom: 15px; } }
+  .desctiption_slide p {
+    color: white;
+    font-size: 22px;
+    line-height: 1.5em;
+    padding-bottom: 57px; }
+    @media screen and (max-width: 768px) {
+      .desctiption_slide p {
+        font-size: 16px;
+        padding-bottom: 15px; } }
+  .desctiption_slide a {
+    color: white;
+    border: 3px solid white;
+    padding: 22px 37px;
+    text-decoration: none;
+    font-size: 25px;
+    border-radius: 5px;
+    transition: 200ms;
+    cursor: pointer; }
+    @media screen and (max-width: 768px) {
+      .desctiption_slide a {
+        padding: 10px;
+        font-size: 15px; } }
+    .desctiption_slide a:hover {
+      background-color: white;
+      border-color: white;
+      color: #49cbcd; }
+
+.owl-carousel .owl-stage-outer {
+  overflow: inherit; }
+
+.owl-nav.owl-next:after {
+  font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+  font-weight: 900;
+  content: "\f105";
+  display: block;
+  font-size: 28px;
+  color: black; }
+
+.team h2 {
+  padding: 105px 0 55px;
+  font-size: 23px;
+  margin-bottom: 130px; }
+.team h3 {
+  font-size: 22px;
+  color: #4e525d; }
+  .team h3 span {
+    display: block;
+    font-size: 14px; }
+.team p {
+  margin-bottom: 50px; }
+
+.img_team {
+  width: 202px;
+  height: 202px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #eeeef0;
+  position: relative;
+  overflow: hidden; }
+  .img_team img {
+    width: 100%;
+    display: block; }
+  .img_team:after {
+    position: absolute;
+    content: "+";
+    color: red;
+    line-height: 202px;
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    left: 0;
+    top: -200px;
+    transition: 500ms; }
+  .img_team:hover:after {
+    top: 0; }
+
+.service {
+  background-color: #f1f1f1;
+  padding-top: 117px;
+  padding-bottom: 100px; }
+  .service ul {
+    list-style: none;
+    text-align: center; }
+    .service ul:nth-child(2) li:first-of-type {
+      background-color: #49cbcd; }
+    .service ul:nth-child(2) li:last-of-type a {
+      background-color: #49cbcd; }
+    .service ul li {
+      line-height: 45px;
+      border-right: 1px solid #ecf0f1;
+      border-bottom: 2px solid #ecf0f1;
+      border-left: 1px solid #ecf0f1;
+      background-color: white;
+      color: #abafb4; }
+      .service ul li:first-of-type {
+        border-top: solid 1px #ecf0f1;
+        background-color: #485460;
+        line-height: 75px;
+        color: white;
+        font-size: 26px; }
+      .service ul li:nth-child(2) {
+        background-color: #f8f9fb;
+        line-height: 68px;
+        color: #485460;
+        font-size: 20px; }
+      .service ul li:last-of-type {
+        background-color: #f8f9fb;
+        padding: 29px 100px; }
+        .service ul li:last-of-type a {
+          padding: 12px 50px;
+          background-color: #788492;
+          color: white;
+          border-radius: 5px; }
+
+footer {
+  background-image: url("../images/footer_back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 105px;
+  padding-bottom: 98px; }
+  footer h2 {
+    padding-bottom: 117px;
+    font-size: 42px;
+    color: white; }
+  footer h3 {
+    font-size: 24px;
+    color: white; }
+  footer p {
+    font-size: 14px;
+    color: #a6a6a6; }
+  footer .icons_footer {
+    padding-bottom: 22px; }
+    footer .icons_footer a i {
+      color: white;
+      width: 42px;
+      line-height: 42px;
+      font-size: 23px;
+      text-align: center;
+      border-radius: 50%;
+      margin-right: 15px; }
+    footer .icons_footer a .fa-facebook-f {
+      background-color: #3b5997;
+      border: solid 1px #3b5997; }
+    footer .icons_footer a .fa-twitter {
+      background-color: #3ec2f3;
+      border: solid 1px #3ec2f3; }
+    footer .icons_footer a .fa-google-plus-g {
+      background-color: #e44c41;
+      border: solid 1px #e44c41; }
+  footer p {
+    font-size: 14px;
+    color: #bface2;
+    padding-bottom: 15px; }
+  footer span {
+    font-size: 14px;
+    color: #bface2; }
+
+.btn.btn-default {
+  background: #49cbcd;
+  color: white;
+  border: none;
+  margin-top: 30px; }
+
+.owl-dots {
+  text-align: center; }
+  .owl-dots .owl-dot.active span {
+    background-color: #dde8d9; }
+  @media screen and (max-width: 768px) {
+    .owl-dots .owl-dot span {
+      background-color: #858a82;
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      margin: 0 10px;
+      border-radius: 50%; } }
+
+.owl-nav .owl-prev:before {
+  font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+  content: "\f053";
+  display: block;
+  font-size: 23px;
+  font-weight: 900;
+  color: #49cbcd;
+  position: absolute;
+  left: 65px;
+  top: 50%;
+  border: solid 2px white;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  background: white; }
+  @media screen and (max-width: 768px) {
+    .owl-nav .owl-prev:before {
+      display: none; } }
+.owl-nav .owl-next:after {
+  font-family: 'Font Awesome 5 Free', 'Font Awesome 5 Brands';
+  content: "\f105";
+  display: block;
+  font-size: 23px;
+  font-weight: 900;
+  color: #49cbcd;
+  position: absolute;
+  right: 65px;
+  top: 50%;
+  border: solid 2px white;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  background: white; }
+  @media screen and (max-width: 768px) {
+    .owl-nav .owl-next:after {
+      display: none; } }
+
+/*# sourceMappingURL=style_preproc.css.map */
